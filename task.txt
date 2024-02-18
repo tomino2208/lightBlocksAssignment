@@ -1,0 +1,45 @@
+https://phase-fir-c8f.notion.site/QA-Home-Assignment-5081a15f42a64db6a9b57cc33a9a9feb
+
+
+# QA Home Assignment
+
+# Overview
+
+This assignment is designed to assess your skills in approaching an abstract task in an unfamiliar area, breaking it down while simultaneously learning about the unknown subject matter. We will evaluate your home assignment based on your approach to learning the unknown area, how you document the acquired knowledge, the quality of your code, your problem-solving abilities, and any new ideas you bring forth.
+
+Spending some time on learning the new chain, blocks, transactions, smart contracts, payload is expected.
+
+# **Assignment Specifications**
+
+## Task
+
+There is a blockchain network rpc uri is https://rpc.testnet.eoracle.network. The block explorer of this chain is at https://scan.testnet.eoracle.network
+
+Your task is to identify the following
+
+1. which transactions are being sent
+2. which addresses are sending those transactions
+3. what is the payload of the transactions (the contract is verified)
+4. Find interesting patterns, insights on the transactions. For example:
+    1. addresses that are missing blocks sometimes
+    2. transactions that fail sometimes - is there a pattern (same miner, same address, same interval, …)
+    3. compare the payload of the transaction and see the difference between the timestamp and prices for the same sourceID, symbolID
+    4. any more insights you learn
+
+## Environment
+
+- You can query the network using https://rpc.testnet.eoracle.network
+- You can review the block explorer of the network using https://scan.testnet.eoracle.network
+- Your code can be written in any language (you can use r for your researches)
+- The research should include at least 100,000 blocks
+
+## Submission Guidelines
+
+- Repository: Submit the project in GitHub repository, with a README how to run the process
+- Code: can be in any language
+- Assumptions: Document any assumptions made during the development process.
+- Raw data file and final output should be included in the repository
+
+You have 1 week for this home assignment
+
+Good luck!
